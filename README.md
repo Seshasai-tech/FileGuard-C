@@ -52,26 +52,37 @@ gcc -Wall -Wextra -std=c11 main.c -o fileguard -lcrypto
 5. Compare the stored and current hashes.
 6. Display the integrity verification result.
 
+
 ## 📸 Project Demonstration
 
-The application can identify whether a file
-has been modified after registration.
+### 1. Application Interface
+![Main Menu](screenshots/01-main-menu.png)
 
-- PASS: Original file remains unchanged.
-- WARNING: File content has been modified.
+### 2. File Registration
+![File Registration](screenshots/02-file-registration.png)
+
+### 3. Integrity Verification
+![Integrity Verification](screenshots/03-integrity-verified.png)
+
+### 4. Unauthorized Modification Detection
+![Modification Detection](screenshots/04-modification-detected.png)
+
+### 5. Registered Files
+![Registered Files](screenshots/05-registered-files.png)
 
 ## 🔮 Future Enhancements
 
-- Automatic folder monitoring
+- Duplicate registration prevention
+- File monitoring
 - Digital signature verification
 - Improved database security
-- Graphical user interface
 
 ## 👨‍💻 Author
 
-Sesha Sai
+**Sesha Sai**
 
 GitHub: https://github.com/Seshasai-tech
+
 
 ---
 
